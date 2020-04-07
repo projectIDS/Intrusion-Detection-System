@@ -3,4 +3,4 @@ An Intrusion Detection System for detection and prevention of various types of c
 
 Introduction:
 	Intrusion Detection System is an command line program which can be deployed on the server for detection and mitigation od cyber attacks on the server.
-IDS is developed using technologies such as network analysers and deep learning
+IDS is developed using technologies such as network analysers and deep learning.
