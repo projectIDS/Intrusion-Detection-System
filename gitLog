@@ -1,4 +1,10 @@
-commit e4e212cfdfe8201f4eeeceae7409999b5201d615 (HEAD -> master, origin/master, origin/HEAD)
+commit 62d8c427fb5dfcbc1b881c939e41919cc86edb27
+Author: root <shamikjoshi1999@gmail.com>
+Date:   Tue Apr 7 19:59:31 2020 +0530
+
+    Added gitLog - SNJ
+
+commit e4e212cfdfe8201f4eeeceae7409999b5201d615
 Author: projectIDS <63295086+projectIDS@users.noreply.github.com>
 Date:   Tue Apr 7 19:52:17 2020 +0530
 
@@ -33,4 +39,3 @@ Author: projectIDS <63295086+projectIDS@users.noreply.github.com>
 Date:   Tue Apr 7 17:30:06 2020 +0530
 
     Initial commit
-
