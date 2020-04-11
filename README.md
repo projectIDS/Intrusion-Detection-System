@@ -6,8 +6,8 @@
     <img alt="Version 3.0" src="https://img.shields.io/badge/version-3.0-green.svg">
     <img alt="Python 2.6|2.7|3.x" src="https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg">
     <img alt="GPLv3 License" src="https://img.shields.io/badge/license-GPLv3-red.svg">
-    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/commixproject/commix.svg?colorB=ff0000"></a>
-    <img alt="Twitter" src="https://img.shields.io/badge/twitter-@"></a>
+    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/commixproject/commix.svg?colorB=ff0000">
+    <img alt="Twitter" src="https://img.shields.io/badge/twitter-@">
   </p>
 
 
