@@ -2,14 +2,13 @@
 	<img alt="ProjectIDS" src="images/projectIDS.png" height="142" />
 
 	<p align="center">
-    <img alt="Build Status" src="https://img.shields.io/badge/build-passing-brightgreen">
-    <img alt="Version 3.0" src="https://img.shields.io/badge/version-3.0-green.svg">
-    <img alt="Python 2.6|2.7|3.x" src="https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg">
-    <img alt="GPLv3 License" src="https://img.shields.io/badge/license-GPLv3-red.svg">
-    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/commixproject/commix.svg?colorB=ff0000">
-    <img alt="Twitter" src="https://img.shields.io/badge/twitter-@">
+    <a href="https://api.travis-ci.org/commixproject/commix"><img alt="Build Status" src="https://api.travis-ci.org/commixproject/commix.svg?branch=master"></a>
+    <a href="https://github.com/commixproject/commix/releases/tag/v3.0-20191111"><img alt="Version 3.0" src="https://img.shields.io/badge/version-3.0-green.svg"></a>
+    <a href="http://www.python.org/download/"><img alt="Python 2.6|2.7|3.x" src="https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg"></a>
+    <a href="https://github.com/commixproject/commix/blob/master/readme/COPYING"><img alt="GPLv3 License" src="https://img.shields.io/badge/license-GPLv3-red.svg"></a>
+    <a href="https://github.com/sqlmapproject/sqlmap/issues?q=is%3Aissue+is%3Aclosed"><img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/commixproject/commix.svg?colorB=ff0000"></a>
+    <a href="http://www.twitter.com/commixproject"><img alt="Twitter" src="https://img.shields.io/badge/twitter-@commixproject-blue.svg"></a>
   </p>
-
 
 </p>
 
