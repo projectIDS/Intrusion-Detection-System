@@ -1,13 +1,40 @@
 # Intrusion-Detection-System
 An Intrusion Detection System for detection and prevention of various types of cyber attacks using deep learning technology
 
-Introduction:
-	Intrusion Detection System is an command line program which can be deployed on the server for detection and mitigation of cyber attacks on the server.
-IDS is developed using technologies such as network analysers and deep learning.
-----------------------------------------------------------------------------------------------------------------------
-With the development of Internet of Things (IoT), numerous IoT devices and sensors transmit huge amounts of data to data centers for further processing.While providing us considerable convenience, such computing also bring us many security problems, such as the threats of data leaks and conserns about the privacy. A variety of attacks in the IoT network seeks for a detection and prevention mechanism such as intrusion detection systems (IDSs). This paper addresses deep neural network for prevention and mitigation of attacks in IoT network.The performance of the method is evaluated on the datasets prepared in wired and wireless network environment.Furthermore,deep neural network is utilized to obtain the best parameter settings for dataset. The experimental results demonstrate the effectiveness of our approach using deep neural network in terms of accuracy, precision, recall and false alarm rate.
------------------------------------------------------------------------------------------------------------------------
-An IoT security framework is made of three layers, i.e. perception, transportation, and application layer. Perception layer possesses perception node (sensors, controllers, etc) that is used for data acquisition. Secure communications between nodes, lightweight authentication are the main security issues in this layer. In addition, there exist three layers in the transportation layer, i.e. the access network, the core network, and local area network. Transportation layer offers a ubiquitous access information for perception layer using wireless network (WiFi, 3G, etc), ad-hoc network, etc. Thus, several attacks, i.e. information disclosure, network disability, DoS attack, etc become the prevalent security issues found in this layer. To overcome these problems, attack detection and prevention mechanism might be deployed before they make a huge loss in the entire layer.
-----------------------------------------------------------------------------------------------------------------------
-	Such mechanism could be materialized by employing an intrusion detection system (IDS). It is an intelligent system which is able to detect and repeal any malevolent behaviours within the network. Many researchers have proposed a plethora techniques to improve the detection accuracy of IDS, yet the span-new attacks are continuously mushrooming and on the top of that they become more and more sophisticated. Anomaly-based detection is one IDS technique that can be utilized to detect some novel attacks. It probes the deviation of the network patterns that differs significantly from the normal patterns.
------------------------------------------------------------------------------------------------------------------------
+##Introduction:
+	Intrusion Detection System is an command line program which can be deployed on the server for detection and mitigation of cyber attacks on the server.A variety of attacks in the IoT network seeks for a detection and prevention mechanism such as intrusion detection systems (IDSs).The experimental results demonstrate the effectiveness of our approach using deep neural network in terms of accuracy, precision, recall and false alarm rate.
+
+## Table of Contents
+* [General Info](#general-info)
+* [Technologies](#technlogies)
+* [System](#system)
+* [Setup](#setup)
+
+## General info
+
+	
+## Technologies
+Project is created with:
+* dumpcap 3.2.1
+* GLib 2.62.4
+* zlib 1.2.11
+* libpcap
+* POSIX capabilities (Linux)
+* libnl 3.
+* tshark 3.2.1
+* gcc 9.2.1 20200110
+	
+
+## System
+Running on Linux 5.4.0-kali4-amd64, with Intel(R) Core(TM) i5-7200U CPU @2.50GHz (with SSE4.2), with 7924 MB of physical memory, with locale en_IN, with libpcap version 1.9.1 (with TPACKET_V3), with GnuTLS 3.6.12, with Gcrypt 1.8.5, with brotli 1.0.7, with zlib 1.2.11, binary plugins supported (0 loaded).
+
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
+
+
