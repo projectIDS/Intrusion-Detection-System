@@ -1,7 +1,12 @@
+<p align="center">
+	<img alt="ProjectIDS" src="images/projectIDS.png" height="142" />
+</p>
+
+
 # Intrusion-Detection-System
 An Intrusion Detection System for detection and prevention of various types of cyber attacks using deep learning technology
 
-##Introduction:
+##Introduction
 	Intrusion Detection System is an command line program which can be deployed on the server for detection and mitigation of cyber attacks on the server.A variety of attacks in the IoT network seeks for a detection and prevention mechanism such as intrusion detection systems (IDSs).The experimental results demonstrate the effectiveness of our approach using deep neural network in terms of accuracy, precision, recall and false alarm rate.
 
 ## Table of Contents
