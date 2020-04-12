@@ -1,3 +1,24 @@
+commit 8fbd0efa65a84a0f8663095649365335fdd65b0e
+Merge: ce90eea c92779c
+Author: root <shamikjoshi1999@gmail.com>
+Date:   Sun Apr 12 13:05:20 2020 +0530
+
+    Resolving Unmerge files
+
+commit ce90eea6c784416db1be98121c10849fd5898239
+Author: root <shamikjoshi1999@gmail.com>
+Date:   Sun Apr 12 13:00:24 2020 +0530
+
+    Installation file added
+
+commit c92779c1f8d2ee876374631750c115e3924bda6b
+Author: Shamik Joshi <35557916+ShamikJoshi@users.noreply.github.com>
+Date:   Sat Apr 11 19:46:58 2020 +0530
+
+    Update README.md
+    
+    7
+
 commit f2dcb220691987cc7402d4883adbd5764fe396c5
 Author: root <shamikjoshi1999@gmail.com>
 Date:   Sat Apr 11 19:37:39 2020 +0530
