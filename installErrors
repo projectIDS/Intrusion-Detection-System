@@ -1,0 +1,13 @@
+Incase of errors in installing IDS-->
+
+error running makeInstall.sh
+	Give executing permission for makeInstall.sh
+	--> chmod 744 makeInstall.sh
+
+error running ids.sh
+	Give executing permission
+	--> chmod 744 ids.sh
+
+error "__ NOT installed"
+	Install the program
+	--> apt-get install __
