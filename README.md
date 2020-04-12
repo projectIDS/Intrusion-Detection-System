@@ -10,41 +10,90 @@
 
 
 # Project IDS - Intrusion Detection System
-An Intrusion Detection System for detection and prevention of various types of cyber attacks using deep learning technology
+An Intrusion Detection System for detection and prevention of various types of Cyber attacks using deep learning technology.
 
 ## Introduction
-Intrusion Detection System is an command line program which can be deployed on the server for detection and mitigation of cyber attacks on the server.A variety of attacks in the IoT network seeks for a detection and prevention mechanism such as intrusion detection systems (IDSs).The experimental results demonstrate the effectiveness of our approach using deep neural network in terms of accuracy, precision, recall and false alarm rate.
+ProjectIDS is an command line program which can be deployed on the server for detection and mitigation of cyber attacks on the server. Project IDS is an integrated program which falls into category of Network Intrusion Detection System (NIDS) as well as Host-Based Intrusion Detection System.It makes use of deep learning technology for finding the source of attacker and thus effectively mitigates the attack.
 
-## Table of Contents
+## Table of Content
 * [General Info](#general-info)
+* [Legal Disclaimer](#legal-disclaimer)
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Supported Platforms](#supportedPlatforms)
 * [Technologies](#technlogies)
-* [System](#system)
 * [Setup](#setup)
+* [System](#system)
+* [Usage](#usage)
+
+
 
 ## General info
 
-	
+**ProjectIDS** (short for **Project** [**I**]ntrusion [**D**]etection [**S**]ystem) is an automated and integrated tool that can be used for securing the servers from vaious types of cyber attacks .By using this tool, it is very easy to secure the Web Servers fro any external threats.
+
+## Legal Disclaimer
+
+**With each ProjectIDS run end users are obligated to agree** with the following prelude message:
+```
+(!) Legal disclaimer: ProjectIDS is license under GNU's General Public License.
+It is the end user's responsibility to obey all applicable local, state and federal laws. 
+Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+```
+
+## Requirements
+
+**[Python](http://www.python.org/download/)** version **3.x**  is required for running this program.
+**[Wireshark](https://www.wireshark.org)** is required for network analysis
+**[Tensorflow](https://www.tensorflow.org)** is required for Deep Learning 
+
+
+## Installation
+
+Download ProjectIDS by cloning the Git repository:
+
+    git clone https://github.com/projectIDS/Intrusion-Detection-System/ ProjectIDS
+    
+## Supported Platforms
+
+- Linux
+- Support for other platforms in development
+
 ## Technologies
+
 Project is created with:
-* dumpcap 3.2.1
+* gcc 9.2.1 20200110
+* libpcap
 * GLib 2.62.4
 * zlib 1.2.11
-* libpcap
+* dumpcap 3.2.1
+* tshark 3.2.1
+* Python 3
+* Tensorflow
+* Keras
 * POSIX capabilities (Linux)
 * libnl 3.
-* tshark 3.2.1
-* gcc 9.2.1 20200110
-	
 
-## System
-Running on Linux 5.4.0-kali4-amd64, with Intel(R) Core(TM) i5-7200U CPU @2.50GHz (with SSE4.2), with 7924 MB of physical memory, with locale en_IN, with libpcap version 1.9.1 (with TPACKET_V3), with GnuTLS 3.6.12, with Gcrypt 1.8.5, with brotli 1.0.7, with zlib 1.2.11, binary plugins supported (0 loaded).
 
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ cd Intrusion-Detection-System
+$ chmod 744 makeInstall.sh
+$ ./makeInstall.sh
+$ chmod 744 ids.sh
 ```
 
+
+## System
+
+**Project IDS is tested on system with following capapbilities**
+Running on Linux 5.4.0-kali4-amd64, with Intel(R) Core(TM) i5-7200U CPU @2.50GHz (with SSE4.2), with 7924 MB of physical memory, with locale en_IN, with libpcap version 1.9.1 (with TPACKET_V3), with GnuTLS 3.6.12, with Gcrypt 1.8.5, with brotli 1.0.7, with zlib 1.2.11, binary plugins supported (0 loaded).
+
+
+## Usage
+
+To deploy the ProjectIDS:
+
+    ./ids.sh
