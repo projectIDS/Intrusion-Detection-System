@@ -13,7 +13,7 @@
 An Intrusion Detection System for detection and prevention of various types of Cyber attacks using deep learning technology.
 
 ## Introduction
-ProjectIDS is an command line program which can be deployed on the server for detection and mitigation of cyber attacks on the server. Project IDS is an integrated program which falls into category of Network Intrusion Detection System (NIDS) as well as Host-Based Intrusion Detection System.It makes use of deep learning technology for finding the source of attacker and thus effectively mitigates the attack.
+ProjectIDS is an command line software which can be deployed on the server for detection and mitigation of cyber attacks. Project IDS is an integrated program which falls into category of Network Intrusion Detection System (NIDS) as well as Host-Based Intrusion Detection System(HIDS).It makes use of deep learning technology for finding the source of attacker and thus effectively mitigates the attack.
 
 ## Table of Content
 * [General Info](#general-info)
@@ -36,23 +36,25 @@ ProjectIDS is an command line program which can be deployed on the server for de
 
 **With each ProjectIDS run end users are obligated to agree** with the following prelude message:
 ```
-(!) Legal disclaimer: ProjectIDS is license under GNU's General Public License.
+(!) Legal disclaimer: 
 It is the end user's responsibility to obey all applicable local, state and federal laws. 
 Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 ```
 
 ## Requirements
 
-**[Python](http://www.python.org/download/)** version **3.x**  is required for running this program.
-**[Wireshark](https://www.wireshark.org)** is required for network analysis
-**[Tensorflow](https://www.tensorflow.org)** is required for Deep Learning 
+- **[Python](http://www.python.org/download/)** version **2.x****3.x**  are required for running this program.
+- **[Wireshark](https://www.wireshark.org)** required for network traffic analysis
+- **[Tensorflow](https://www.tensorflow.org)** required for Deep Learning 
+- **[Pandas](https://pypi.org/project/pandas-ml/)** required for Deep Learing
+- **[Keras](https://keras.io/)** required for Deep Learning
 
 
 ## Installation
 
 Download ProjectIDS by cloning the Git repository:
 
-    git clone https://github.com/projectIDS/Intrusion-Detection-System/ ProjectIDS
+    git clone https://github.com/projectIDS/Intrusion-Detection-System.git
     
 ## Supported Platforms
 
@@ -62,17 +64,19 @@ Download ProjectIDS by cloning the Git repository:
 ## Technologies
 
 Project is created with:
-* gcc 9.2.1 20200110
-* libpcap
-* GLib 2.62.4
-* zlib 1.2.11
-* dumpcap 3.2.1
-* tshark 3.2.1
-* Python 3
-* Tensorflow
-* Keras
-* POSIX capabilities (Linux)
-* libnl 3.
+* **[gcc 9.2.1 20200110](https://gcc.gnu.org/)**
+* **[libpcap](https://www.tcpdump.org/)**
+* **[GLib 2.62.4](https://developer.gnome.org/glib/)**
+* **[zlib 1.2.11](https://www.zlib.net/)**
+* **[dumpcap 3.2.1](https://www.wireshark.org/docs/man-pages/dumpcap.html)**
+* **[tshark 3.2.1](https://tshark.dev/setup/install/)**
+* **[Python 2](https://www.python.org/download/releases/2.0/)**
+* **[Python 3](https://www.python.org/downloads/)**
+* **[Tensorflow](https://www.tensorflow.org)**
+* **[Keras](https://keras.io/)**
+* **[Pandas](https://pypi.org/project/pandas-ml/)**
+* **[POSIX capabilities (Linux)](https://en.wikipedia.org/wiki/POSIX)**
+* **[libnl 3.](https://www.infradead.org/~tgr/libnl/)**
 
 
 ## Setup
@@ -96,4 +100,7 @@ Running on Linux 5.4.0-kali4-amd64, with Intel(R) Core(TM) i5-7200U CPU @2.50GHz
 
 To deploy the ProjectIDS:
 
-    ./ids.sh
+```
+	$ cd Intrusion-Detection-System
+    $ ./ids.sh
+```
