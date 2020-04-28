@@ -38,7 +38,7 @@ ProjectIDS is an command line software which can be deployed on the server for d
 
 ## General info
 
-**ProjectIDS** (short for **Project** [**I**]ntrusion [**D**]etection [**S**]ystem) is an automated and integrated tool that can be used for securing the servers from vaious types of cyber attacks .By using this tool, it is very easy to secure the Web Servers fro any external threats.
+**ProjectIDS** (short for **Project** [**I**]ntrusion [**D**]etection [**S**]ystem) is an automated and integrated tool that can be used for securing the servers from vaious types of cyber attacks . ProjectIDS uses deep learning technology and is simple to deploy and manage.
 
 ## Legal Disclaimer
 
