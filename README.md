@@ -43,7 +43,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 
 ## Requirements
 
-- **[Python](http://www.python.org/download/)** version **2.x****3.x**  are required for running this program.
+- **[Python](http://www.python.org/download/)** version **2.x 3.x**  are required for running this program.
 - **[Wireshark](https://www.wireshark.org)** required for network traffic analysis
 - **[Tensorflow](https://www.tensorflow.org)** required for Deep Learning 
 - **[Pandas](https://pypi.org/project/pandas-ml/)** required for Deep Learing
@@ -101,6 +101,6 @@ Running on Linux 5.4.0-kali4-amd64, with Intel(R) Core(TM) i5-7200U CPU @2.50GHz
 To deploy the ProjectIDS:
 
 ```
-	$ cd Intrusion-Detection-System
-    $ ./ids.sh
+$ cd Intrusion-Detection-System
+$ ./ids.sh
 ```
