@@ -65,7 +65,7 @@ for j in count:
         ind = np.where(count==j)
         ip.append(unique_ip[ind[0][0]])
 
-f = open("ip_details.txt", "w")
+f = open("attackerIP.txt", "w")
 for m in ip:
     f.write(str(m)+'\n')
 f.close()
