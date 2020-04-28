@@ -1,3 +1,35 @@
+commit 76f5a65130c8a4fa197186ff78d772e525333acc
+Author: root <shamikjoshi1999@gmail.com>
+Date:   Tue Apr 28 13:32:20 2020 +0530
+
+    DeepLearning Files Added
+
+commit ec31fcdb3820f9eb347f639aef0f87b4f69304eb
+Author: root <shamikjoshi1999@gmail.com>
+Date:   Tue Apr 28 13:28:26 2020 +0530
+
+    Major Update in ids.sh
+
+commit 5fabe8a26b1f5709fed318dc057fff5ed7678198
+Author: Shamik Joshi <35557916+ShamikJoshi@users.noreply.github.com>
+Date:   Sun Apr 12 13:47:00 2020 +0530
+
+    Major README.md Update
+    
+    8
+
+commit cbba82e06237360b9012f4e7cbae9cb8389f71a5
+Author: root <shamikjoshi1999@gmail.com>
+Date:   Sun Apr 12 13:15:13 2020 +0530
+
+    Added installError Resolve file
+
+commit 5fc4f6c0ae6d4be9bbf9afccc1d72a998267b1c6
+Author: root <shamikjoshi1999@gmail.com>
+Date:   Sun Apr 12 13:09:30 2020 +0530
+
+    Update GitLog 3
+
 commit 8fbd0efa65a84a0f8663095649365335fdd65b0e
 Merge: ce90eea c92779c
 Author: root <shamikjoshi1999@gmail.com>
