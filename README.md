@@ -1,10 +1,18 @@
 <p align="center">
   <img alt="ProjectIDS" src="images/projectIDS.png" height="142" />
   <p align="center">
+	<a href=""><img alt="Technology Used" src="https://img.shields.io/badge/Technology%20Used-Deep%20Learning-orange"></a>
+  </p>
+  <p align="center">
     <a href=""><img alt="Build Status" src="https://img.shields.io/badge/build-passing-brightgreen.svg"></a>
     <a href="https://github.com/projectIDS/Intrusion-Detection-System/"><img alt="Version 1.0" src="https://img.shields.io/badge/version-1.0-yellow.svg"></a>
     <a href="http://www.python.org/download/"><img alt="Python 2.6|2.7|3.x" src="https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg"></a>
-    <a href="https://github.com/commixproject/commix/blob/master/readme/COPYING"><img alt="GPLv3 License" src="https://img.shields.io/badge/license-GPLv3-red.svg"></a>
+    <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img alt="GPLv3 License" src="https://img.shields.io/badge/license-GPLv3-red.svg"></a>
+	<a href=""><img alt="Test Status" src="https://img.shields.io/badge/tests-12%20passed-success.svg"></a>
+  </p>
+  <p align="center">
+	<a href=""><img alt="Requirement Status" src="https://img.shields.io/badge/requirements-up%20to%20date-brightgreen"></a>
+	<a href=""><img alt="Dependencies Status" src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen"></a>
   </p>
 </p>
 
