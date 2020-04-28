@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file="ip_details.txt"
+file="attackerIP.txt"
 
 while IFS= read -r line
 do

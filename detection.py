@@ -16,12 +16,12 @@ with open('deep_model','rb') as f:
 
 
 #Import dataset for prediction
-data = pd.read_csv('test2.csv')
+data = pd.read_csv('LivePCFDataset.csv')
 data.columns = ['Frame Length','Capture Length','Protocols in frame','Ethernet type','IP Version','IP Header Length','Total Length','Time to live','Protocol','Source IP','Destination IP','Source Port','Destination Port','TCP Length','Relative Sequence No','Raw Sequence No ','Relative Ack No','Raw Ack No','ACK Flag','PUSH Flag','SYN Flag','Bytes in Flight','Bytes since last PSH flag','Time Since First Frame in TCP Stream','Time Since Previous Frame in this TCP Stream']
 data.drop(['Source IP','Destination IP','Ethernet type','Protocols in frame','Bytes since last PSH flag','Bytes in Flight'], axis = 1, inplace = True) 
 data = data.dropna(axis=0, subset=['IP Version','IP Header Length','Total Length','Source Port','Destination Port','TCP Length','Relative Sequence No','Relative Ack No','Raw Ack No','ACK Flag','PUSH Flag','SYN Flag','Time Since First Frame in TCP Stream','Time Since Previous Frame in this TCP Stream'])
 
-data1 = pd.read_csv('test2.csv')
+data1 = pd.read_csv('LivePCFDataset.csv')
 data1.columns = ['Frame Length','Capture Length','Protocols in frame','Ethernet type','IP Version','IP Header Length','Total Length','Time to live','Protocol','Source IP','Destination IP','Source Port','Destination Port','TCP Length','Relative Sequence No','Raw Sequence No ','Relative Ack No','Raw Ack No','ACK Flag','PUSH Flag','SYN Flag','Bytes in Flight','Bytes since last PSH flag','Time Since First Frame in TCP Stream','Time Since Previous Frame in this TCP Stream']
 data1 = data1.dropna(axis=0, subset=['IP Version','IP Header Length','Total Length','Source Port','Destination Port','TCP Length','Relative Sequence No','Relative Ack No','Raw Ack No','ACK Flag','PUSH Flag','SYN Flag','Time Since First Frame in TCP Stream','Time Since Previous Frame in this TCP Stream'])
 
