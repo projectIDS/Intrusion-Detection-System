@@ -31,6 +31,7 @@ then
 	echo "Zlib installed..."
 else
 	echo "Zlib NOT installed"
+	exit
 fi
 sleep 1
 
@@ -54,6 +55,16 @@ else
 fi
 sleep 1
 
+whereis python2 | grep '/usr/bin/python2.7' &> /dev/null
+if [ $? == 0 ]
+then
+	echo "python 2 installed..."
+else
+	echo "python 2 NOT installed"
+	exit
+fi
+sleep 1
+
 whereis python3 | grep '/usr/bin/python3.7' &> /dev/null
 if [ $? == 0 ]
 then
@@ -63,6 +74,17 @@ else
 	exit
 fi
 sleep 1
+
+whereis pip | grep '/usr/bin/pip' &> /dev/null
+if [ $? == 0 ]
+then
+	echo "pip installed..."
+else
+	echo "pip NOT installed"
+	exit
+fi
+sleep 1
+
 
 whereis pip3 | grep '/usr/bin/pip3' &> /dev/null
 if [ $? == 0 ]
@@ -80,6 +102,7 @@ then
 	echo "Tensorflow installed..."
 else
 	echo "Tensorflow NOT installed"
+	exit
 fi
 sleep 1
 
@@ -89,6 +112,17 @@ then
 	echo "Keras installed..."
 else
 	echo "Keras NOT installed"
+	exit
+fi
+sleep 1
+
+pip3 show pandas | grep 'Name: pandas' &> /dev/null
+if [ $? == 0 ]
+then
+	echo "Pandas installed..."
+else
+	echo "Pandas NOT installed"
+	exit
 fi
 sleep 2
 
