@@ -1,0 +1,28 @@
+Attributes Extracted from Live Packet Capture File
+
+
+Frame Length -> frame.len
+Capture Length -> frame.cap_len
+Protocols in frame -> frame.protocols
+Ethernet type -> eth.type
+IP Version -> ip.version
+IP Header LEngth -> ip.hdr_len
+Total Length -> ip.len
+Time to live -> ip.ttl
+Protocol -> ip.proto
+Source IP -> ip.src
+Dest IP -> ip.dst
+Sec Port -> tcp.srcport
+Dest Port -> tcp.dstport
+TCP Length -> tcp.len
+Relative Sequence No -> tcp.seq
+Raw Sequence No -> tcp.seq_raw
+Relative Ack No -> tcp.ack
+Raw Ack No -> tcp.ack_raw
+ACK Flag -> tcp.flags.ack
+PUSH Falg -> tcp.flags.push
+SYN Falg -> tcp.flags.syn
+Bytes in Flight -> tcp.analysis.bytes_in_flight
+Bytes since last PSH flag -> tcp.analysis.push_bytes_sent
+Time Since First Frame in TCP Stream -> tcp.time_relative
+Time Since Previous Frame in this TCP Stream -> tcp.time_delta
