@@ -8,7 +8,7 @@ sleep 2
 whereis gcc | grep '/usr/bin/gcc' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "gcc installed..."
+	echo "gcc is installed..."
 else
 	echo "gcc NOT installed"
 	exit
@@ -18,7 +18,7 @@ sleep 1
 whereis libpcap | grep '/usr/lib/' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "libpcap installed..."
+	echo "libpcap is installed..."
 else
 	echo "libpcap NOT installed"
 	exit
@@ -28,7 +28,7 @@ sleep 1
 whereis zlib | grep '/usr/include/zlib.h' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "Zlib installed..."
+	echo "Zlib is installed..."
 else
 	echo "Zlib NOT installed"
 	exit
@@ -38,7 +38,7 @@ sleep 1
 whereis dumpcap | grep '/usr/bin/dumpcap' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "dumpcap installed..."
+	echo "dumpcap is installed..."
 else
 	echo "dumpcap NOT installed"
 	exit
@@ -48,7 +48,7 @@ sleep 1
 whereis tshark | grep '/usr/bin/tshark' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "tshark installed..."
+	echo "tshark is installed..."
 else
 	echo "tshark NOT installed"
 	exit
@@ -58,7 +58,7 @@ sleep 1
 whereis python2 | grep '/usr/bin/python2.7' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "python 2 installed..."
+	echo "python is 2 installed..."
 else
 	echo "python 2 NOT installed"
 	exit
@@ -68,7 +68,7 @@ sleep 1
 whereis python3 | grep '/usr/bin/python3.7' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "python 3 installed..."
+	echo "python is 3 installed..."
 else
 	echo "python 3 NOT installed"
 	exit
@@ -78,7 +78,7 @@ sleep 1
 whereis pip | grep '/usr/bin/pip' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "pip installed..."
+	echo "pip is installed..."
 else
 	echo "pip NOT installed"
 	exit
@@ -89,7 +89,7 @@ sleep 1
 whereis pip3 | grep '/usr/bin/pip3' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "pip 3 installed..."
+	echo "pip 3 is installed..."
 else
 	echo "pip 3 NOT installed"
 	exit
@@ -99,7 +99,7 @@ sleep 1
 pip3 show tensorflow | grep 'Name: tensorflow' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "Tensorflow installed..."
+	echo "Tensorflow is installed..."
 else
 	echo "Tensorflow NOT installed"
 	exit
@@ -109,7 +109,7 @@ sleep 1
 pip3 show keras | grep 'Name: Keras' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "Keras installed..."
+	echo "Keras is installed..."
 else
 	echo "Keras NOT installed"
 	exit
@@ -119,7 +119,7 @@ sleep 1
 pip3 show pandas | grep 'Name: pandas' &> /dev/null
 if [ $? == 0 ]
 then
-	echo "Pandas installed..."
+	echo "Pandas is installed..."
 else
 	echo "Pandas NOT installed"
 	exit
